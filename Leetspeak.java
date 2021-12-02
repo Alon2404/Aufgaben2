@@ -19,9 +19,7 @@ public class Leetspeak {
 //        }
 
         for (int i=0; i<txt.length(); i++){
-
             leetspeak = txt.charAt(i);
-
             for(int j=0; j < letter.length; j++){
                 if(leetspeak == letter[j]){
                     leetspeak = ran[j];
@@ -31,8 +29,6 @@ public class Leetspeak {
         }
     }
 }
-
-
 //            if (leetspeak == 'A' ){
 //                leetspeak = ran[0];
 //            } else if (leetspeak == 'B'){
@@ -58,5 +54,3 @@ public class Leetspeak {
 //            }else if (leetspeak == 'Z'){
 //                leetspeak = ran[11];
 //            }
-
-
